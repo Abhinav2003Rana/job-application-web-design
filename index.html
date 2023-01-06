@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Job Application</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Job Application</h1>
+        <div class="first-part flex">
+            <div class="fname cflex margin-padding">
+                <label for="fname">First Name</label>
+                <input type="text"  name="fname">
+            </div>
+            <div class="lname cflex margin-padding">
+                <label for="lname">Last Name</label>
+                <input type="text"  name="lname">
+            </div>
+        </div>
+        <div class="second-part flex">
+            <div class="email cflex margin-padding">
+                <label for="email">Email</label>
+                <input type="email"  name="email">
+            </div>
+            <div class="job cflex margin-padding">
+                <label for="Job">Job</label>
+                <select name="job" id="job">
+                    <option>web developer</option>
+                    <option>content writer</option>
+                    <option>graphic design</option>
+                </select>
+            </div>
+
+        </div>
+        <div class="third-part cflex addr">
+            <label for="address">Address</label>
+            <textarea name="address"  class="tarea" id="address" cols="30" rows="10"></textarea>
+            
+        </div>
+        <div class="fourth-part flex ">
+            <div class="city cflex margin-padding">
+                <label for="city">City</label>
+                <input type="text"  name="city">
+            </div>
+            <div class="pincode cflex margin-padding">
+                <label for="pincode">Pincode</label>
+                <input type="text"  name="pincode">
+            </div>
+            
+        </div>
+        <div class="fifth-part flex ">
+            <div class="date margin-padding">
+                <label for="date">Date</label>
+                <input type="date"  name="date" id="">
+            </div>
+            <button>Submit</button>
+        </div>
+
+    </div>
+    
+</body>
+</html>
